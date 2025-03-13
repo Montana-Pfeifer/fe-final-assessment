@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscription-item {
+  padding: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.teas {
+  margin-top: 20px;
+}
+
+.teas ul {
+  list-style-type: none;
+  padding: 0;
+}
